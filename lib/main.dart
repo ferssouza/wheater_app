@@ -23,17 +23,15 @@ class WheaterApp extends StatelessWidget {
               style: TextStyle(
                 fontSize: 36,
                 color: Colors.white,
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               ),
             ),
-
             Image.network(
               "https://raw.githubusercontent.com/professordezani/wheaterapp-images/main/sol.png",
               width: 96,
               height: 96,
             ),
             Text(
-              "Ensolarad",
+              "Ensolarado",
               style: TextStyle(
                 fontSize: 36,
                 color: Colors.white,
@@ -183,6 +181,7 @@ class WheaterApp extends StatelessWidget {
                 "https://raw.githubusercontent.com/professordezani/wheaterapp-images/main/nublado.png",
                 width: 36,
                 height: 36,
+                //left:
               ),
               Image.network(
                 "https://raw.githubusercontent.com/professordezani/wheaterapp-images/main/vento.png",
